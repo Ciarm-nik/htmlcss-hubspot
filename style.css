@@ -44,7 +44,21 @@ nav input {
 }
 
     /* Seconda nav */
+.nav-bar2 {
+    line-height: 50px;
+}
 
+.logo img {
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
 
 
 
@@ -109,4 +123,12 @@ nav input {
     content: "";
     display: table;
     clear: both;
+}
+
+.border_bottom {
+    border-bottom: 1px solid black  ;
+}
+
+.bg-lightgray {
+    background-color: lightgray;
 }
