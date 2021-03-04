@@ -60,11 +60,33 @@ nav li {
     display: inline-block;
 }
 
+  /* Prima sezione */
+.jumbo {
+    position: relative;
+}
+  .jumbo img {
+      width: 100%;
+      object-fit: cover;
+  }
+
+  .descrizione_jumbo{
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      text-align: center;
+      padding: 50px;
+      width: 25%;
+      font-family: "Avenir Next W01","Avenir Next", Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
 
 
 
 
 /* selettori comuni */
+
+.col100{
+    width: 100%;
+}
 
 .col50 {
     width: 50%;
