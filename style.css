@@ -2,12 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .container {
     width: 1200px;
     margin: auto;
 }
+
+     /* Prima Nav */
+
+nav a {
+    color: black;
+    margin-right: 20px;
+}
+
+nav input {
+    margin-left: 20px;
+}
+
+.nav-bar {
+    line-height: 50px;
+}
+
+.button_white {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: orange;
+}
+
+.button_orange {
+    background-color:orange;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.destra {
+    text-align: right;
+}
+
+    /* Seconda nav */
+
 
 
 
