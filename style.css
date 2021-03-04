@@ -15,6 +15,22 @@
 
 /* selettori comuni */
 
+.col50 {
+    width: 50%;
+}
+
+.col33 {
+    width: 33%;
+}
+
+.col25 {
+    width: 25%;
+}
+
+.col75 {
+    width: 75%;
+}
+
 .float-left {
     float: left;
 }
