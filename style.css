@@ -88,15 +88,20 @@ nav li {
 
 
   /* seconda sezione */
-  .rubik img {
-      width: 300px;
-      margin: auto;
-      display: block;
-  }
 
-  .rubik {
+.second {
+    padding-bottom: 30px;
+}
+
+
+.rubik img {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+.rubik {
       padding: 50px 200px;
-  }
+}
 
   .rubik_center {
      margin: auto;
@@ -133,6 +138,7 @@ nav li {
      height: 100px;
      margin: auto;
      display: block;
+     margin-bottom: 20px;
  } 
 
  .side ul {
@@ -152,7 +158,6 @@ nav li {
 
  .side {
      margin-top: 30px;
-     margin-bottom: 30px;
  }
 
  .side_center {
@@ -191,7 +196,7 @@ nav li {
 
     /* Quarta sezione */
 .left_one >* {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px;
     text-align: center;
 }
