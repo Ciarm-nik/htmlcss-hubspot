@@ -128,6 +128,67 @@ nav li {
       padding-top:30px;
   }
 
+ .side img {
+     width: 100px;
+     height: 100px;
+     margin: auto;
+     display: block;
+ } 
+
+ .side ul {
+     list-style: none;
+     text-align: center;
+ }
+
+ .side h2{
+     text-align: center;
+ }
+
+ .side input {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+ }
+
+ .side {
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+
+ .side_center {
+     margin-left: 5%;
+     margin-right: 5%;
+     padding: 40px;
+ }
+
+ .side_left {
+     padding: 40px;
+ }
+
+ .side_right {
+     padding: 40px;
+ }
+
+      /* Terza sezione */
+
+.informazioni >* {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.informazioni p {
+    margin-bottom: 20px;
+}
+
+.informazioni img {
+    display: block;
+    margin-top: 30px ;
+    margin: auto;
+    padding-top: 25px;
+}
+
+
 
 
   
@@ -221,4 +282,8 @@ nav li {
 
 .bg-white {
     background-color: white;
+}
+
+.bg_green {
+    background-color: #00a4bd;
 }
