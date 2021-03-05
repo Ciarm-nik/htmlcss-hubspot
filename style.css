@@ -186,7 +186,10 @@ nav li {
     margin-top: 30px ;
     margin: auto;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
+
+
 
 
 
@@ -262,6 +265,10 @@ nav li {
     border: 1px solid black;
 }
 
+.border_white {
+    border: 1px solid white ;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -271,6 +278,23 @@ nav li {
 .border_bottom {
     border-bottom: 1px solid black  ;
 }
+
+.bordertop {
+    border-top: 0px;
+}
+
+.borderleft {
+    border-left: 0px;
+}
+
+.borderbottom {
+    border-bottom: 0px;
+}
+
+.borderright {
+    border-right: 0px;
+} 
+
 
 .bg-lightgray {
     background-color: lightgray;
