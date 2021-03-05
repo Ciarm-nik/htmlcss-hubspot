@@ -214,7 +214,9 @@ nav li {
 }
 
       /* Footer */
-
+.footer_list {
+    margin-bottom: 40px;
+}
 
 .footer_list ul {
 list-style: none;
@@ -228,13 +230,39 @@ list-style: none;
     padding: 20px;
 }
 
-.footer_list input{
+.footer_list input {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.bottom_blue{
     padding: 5px 10px;
     color: #2d3e50;
     border-radius: 5px;
 }
 
+.footer_list a {
+    color: white;
+    padding-right: 7px;
+    margin-left: 20px;
+}
 
+/* Bottomfooter */
+
+.bottom_footer a {
+    color: white;
+    padding-right: 10px;
+}
+
+.bottom_footer ul {
+    list-style: none;
+    margin-left: 500px
+}
+
+.bottom_footer li {
+    display: inline-block;
+}
+    
 
 
 
