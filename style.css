@@ -79,6 +79,58 @@ nav li {
       font-family: "Avenir Next W01","Avenir Next", Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
   }
 
+  /* .sfumatura {
+      position: absolute;
+      background-color: green;
+      bottom: 0;
+      width: 100%;
+  } */
+
+
+  /* seconda sezione */
+  .rubik img {
+      width: 300px;
+      margin: auto;
+      display: block;
+  }
+
+  .rubik {
+      padding: 50px 200px;
+  }
+
+  .rubik_center {
+     margin: auto;
+  }
+
+  .rubik_center{
+      text-align: center;
+  }
+
+  .illu_left {
+      padding: 50px;
+  }
+
+  .illu_left img{
+      width: 150px;
+      margin: auto;
+      display: block;
+  }
+
+  .illu_left .button_orange {
+      margin: auto;
+      display: block;
+      margin-top: 10px;
+  }
+
+  .illu_right h2 ,p{
+      margin: auto;
+      width: 70%;
+      padding-top:30px;
+  }
+
+
+
+  
 
 
 
@@ -136,6 +188,14 @@ nav li {
     height: 500px;
 }
 
+.h-700 {
+    height: 700px;
+}
+
+.h-1500 {
+    height: 1500px;
+}
+
 
 .border {
     border: 1px solid black;
@@ -153,4 +213,12 @@ nav li {
 
 .bg-lightgray {
     background-color: lightgray;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+.bg-white {
+    background-color: white;
 }
