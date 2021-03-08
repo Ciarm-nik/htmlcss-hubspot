@@ -29,15 +29,15 @@ nav input {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
-    color: orange;
+    color: #ff7a59;
 }
 
 .button_orange {
-    background-color:orange;
+    background-color:#ff7a59;
     padding: 5px;
     border-radius: 5px;
     color: white;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 .destra {
@@ -115,50 +115,45 @@ nav li {
 
   .rubik_center {
      margin: auto;
-  }
+}
 
-  .rubik_center{
+.rubik_center{
       text-align: center;
-  }
+}
 
-  .illu_left {
+.illu_left {
       padding: 50px;
   }
 
-  .illu_left img{
+.illu_left img{
       width: 150px;
       margin: auto;
       display: block;
-  }
+}
 
-  .illu_left .button_orange {
+.illu_left .button_orange {
       margin: auto;
       display: block;
       margin-top: 10px;
-  }
+}
 
-  .illu_right >*{
+.illu_right >*{
       width: 70%;
       padding-top: 30px;
       margin-left: 50px;
-  }
+}
 
-  .hr {
+.hr {
       margin-top: 6px;
-  }
-
-
-
-
+}
  
-
- .side img {
-     width: 100px;
-     height: 100px;
-     margin: auto;
-     display: block;
-     margin-bottom: 20px;
- } 
+.side img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+} 
 
  .side ul {
      list-style: none;
@@ -255,6 +250,10 @@ nav li {
 .right_two img {
     width: 200px;
     margin-left: 370px;
+}
+
+#button {
+    margin-left: 12px;
 }
 
       /* Footer */
