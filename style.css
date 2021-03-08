@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -43,6 +43,11 @@ nav input {
     text-align: right;
 }
 
+#bordo {
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+
     /* Seconda nav */
 .nav-bar2 {
     line-height: 50px;
@@ -72,19 +77,21 @@ nav li {
   .descrizione_jumbo{
       position: absolute;
       top: 10%;
-      left: 10%;
-      text-align: center;
+      left: 15%;
       padding: 50px;
-      width: 25%;
+      width: 35%;
       font-family: "Avenir Next W01","Avenir Next", Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 20px;
   }
 
-  /* .sfumatura {
+  .sfumatura {
       position: absolute;
       background-color: green;
       bottom: 0;
       width: 100%;
-  } */
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+  }
 
 
   /* seconda sezione */
@@ -176,14 +183,25 @@ nav li {
 
       /* Terza sezione */
 
+.informazioni {
+    padding: 50px 0px;
+}      
+
 .informazioni >* {
-    padding-top: 10px;
     text-align: center;
     color: white;
 }
 
+#learn {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
 .informazioni p {
     margin-bottom: 20px;
+    padding-top: 20px;
+    /* margin-top: 10px; */
+    padding-bottom: 20px;
 }
 
 .informazioni img {
@@ -202,7 +220,7 @@ nav li {
 }
 
 .right_one img {
-   width: 180px;
+   width: 150px;
    height: 25px;
    margin-top: 50px;
    margin-left: 30px;
