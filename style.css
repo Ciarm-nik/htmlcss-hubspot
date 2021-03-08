@@ -37,6 +37,7 @@ nav input {
     padding: 5px;
     border-radius: 5px;
     color: white;
+    margin-left: 15px;
 }
 
 .destra {
@@ -94,6 +95,8 @@ nav li {
   }
 
 
+
+
   /* seconda sezione */
 
 .second {
@@ -135,10 +138,19 @@ nav li {
   }
 
   .illu_right >*{
-      margin: auto;
       width: 70%;
-      padding-top:30px;
+      padding-top: 30px;
+      margin-left: 50px;
   }
+
+  .hr {
+      margin-top: 6px;
+  }
+
+
+
+
+ 
 
  .side img {
      width: 100px;
@@ -150,11 +162,16 @@ nav li {
 
  .side ul {
      list-style: none;
-     text-align: center;
+     padding-bottom: 20px;
  }
 
  .side h2{
      text-align: center;
+     padding: 20px 0px;
+ }
+
+ .side p {
+     padding-bottom: 20px;
  }
 
  .side input {
@@ -213,10 +230,14 @@ nav li {
 }
 
     /* Quarta sezione */
+ 
+
 .left_one >* {
     margin-top: 30px;
     padding: 10px;
     text-align: center;
+    /* padding-bottom: 10px; */
+
 }
 
 .right_one img {
@@ -279,12 +300,13 @@ list-style: none;
 
 .bottom_footer ul {
     list-style: none;
-    margin-left: 500px
+    padding-bottom: 10px;
 }
 
 .bottom_footer li {
     display: inline-block;
 }
+
     
 
 
@@ -415,4 +437,12 @@ list-style: none;
 
 .color_white {
     color: white;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
 }
