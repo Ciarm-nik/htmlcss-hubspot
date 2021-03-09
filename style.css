@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+html * {
+    font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;   
+}
+
 .container {
     width: 1000px;
     margin: auto;
@@ -88,7 +92,7 @@ width: 100%;
 
 .sfumatura {
     position: absolute;
-    background-color:#00a4bd;
+    background-color:#a9eae2;
     bottom: 0;
     width: 100%;
     border-top: 3px solid black;
@@ -285,10 +289,14 @@ list-style: none;
     border-radius: 5px;
 }
 
-.footer_list a {
+/* .footer_list a  {
     color: white;
     padding-right: 7px;
     margin-left: 20px;
+} */
+
+.footer_list img {
+    width: 32px;
 }
 
 /* Bottomfooter */
