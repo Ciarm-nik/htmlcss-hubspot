@@ -31,14 +31,14 @@ nav input {
 
 .button_white {
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     color: #ff7a59;
 }
 
 .button_orange {
     background-color:#ff7a59;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     color: white;
     /* margin-left: 15px; */
@@ -140,6 +140,7 @@ width: 100%;
       margin: auto;
       display: block;
       margin-top: 10px;
+      text-align: center;
 }
 
 .illu_right >*{
@@ -196,6 +197,10 @@ width: 100%;
 
  .side_right {
      padding: 40px;
+ }
+
+ .side a {
+     margin-left: 50px;
  }
 
       /* Terza sezione */
@@ -261,6 +266,10 @@ width: 100%;
     margin-left: 12px;
 }
 
+.left_two p {
+    padding: 30px 14px;
+}
+
       /* Footer */
 .footer_list {
     margin-bottom: 40px;
@@ -284,9 +293,10 @@ list-style: none;
 }
 
 .bottom_blue{
-    padding: 5px 10px;
+    padding: 1px 10px;
     color: #2d3e50;
     border-radius: 5px;
+    background-color: white;
 }
 
 /* .footer_list a  {
@@ -309,6 +319,7 @@ list-style: none;
 .bottom_footer ul {
     list-style: none;
     padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .bottom_footer li {
