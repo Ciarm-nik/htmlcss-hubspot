@@ -70,29 +70,30 @@ nav li {
 .jumbo {
     position: relative;
 }
-  .jumbo img {
-      width: 100%;
+
+.jumbo img {
+width: 100%;
       object-fit: cover;
-  }
+}
 
-  .descrizione_jumbo{
-      position: absolute;
-      top: 10%;
-      left: 15%;
-      padding: 50px;
-      width: 35%;
-      font-family: "Avenir Next W01","Avenir Next", Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 20px;
-  }
+.descrizione_jumbo{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    padding: 50px;
+    width: 35%;
+    font-family: "Avenir Next W01","Avenir Next", Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
 
-  .sfumatura {
-      position: absolute;
-      background-color: green;
-      bottom: 0;
-      width: 100%;
-      border-top: 3px solid black;
-      border-bottom: 3px solid black;
-  }
+.sfumatura {
+    position: absolute;
+    background-color:#00a4bd;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
 
 
 
@@ -444,4 +445,12 @@ list-style: none;
 
 .text_right {
     text-align: right;
+}
+
+.entities {
+    background-color: #ff7a59;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-right: 4px;
 }
