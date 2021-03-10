@@ -293,7 +293,7 @@ list-style: none;
 }
 
 .bottom_blue{
-    padding: 1px 10px;
+    padding: 6px 10px;
     color: #2d3e50;
     border-radius: 5px;
     background-color: white;
@@ -474,4 +474,16 @@ list-style: none;
     margin: 0px 3px;
     line-height: 30px;
     vertical-align: middle;
+}
+
+.margin_top {
+    margin-top: 20px;
+}
+
+.margin_left {
+    margin-left: 10px;
+}
+
+.margin_bottom {
+    margin-bottom: 10px;
 }
